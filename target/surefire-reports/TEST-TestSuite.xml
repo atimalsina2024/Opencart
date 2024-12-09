@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="100.235" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/anantatimalsina/eclipse-workspace/Opencart/target/test-classes:/Users/anantatimalsina/eclipse-workspace/Opencart/target/classes:/Users/anantatimalsina/.m2/repository/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar:/Users/anantatimalsina/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/anantatimalsina/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/anantatimalsina/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/anantatimalsina/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/anantatimalsina/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/anantatimalsina/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/anantatimalsina/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/anantatimalsina/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/anantatimalsina/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-java/4.26.0/selenium-java-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-api/4.26.0/selenium-api-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.26.0/selenium-chrome-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.26.0/selenium-chromium-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-json/4.26.0/selenium-json-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.26.0/selenium-manager-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v128/4.26.0/selenium-devtools-v128-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.26.0/selenium-devtools-v129-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.26.0/selenium-devtools-v130-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.26.0/selenium-devtools-v85-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.26.0/selenium-edge-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.26.0/selenium-firefox-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-http/4.26.0/selenium-http-4.26.0.jar:/Users/anantatimalsina/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.26.0/selenium-ie-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.26.0/selenium-remote-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar:/Users/anantatimalsina/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/anantatimalsina/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/anantatimalsina/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/anantatimalsina/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/anantatimalsina/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/Users/anantatimalsina/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-api/1.43.0/opentelemetry-api-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-context/1.43.0/opentelemetry-context-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.43.0/opentelemetry-exporter-logging-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.43.0/opentelemetry-sdk-common-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.43.0/opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.43.0/opentelemetry-sdk-extension-autoconfigure-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.43.0-alpha/opentelemetry-api-incubator-1.43.0-alpha.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.43.0/opentelemetry-sdk-trace-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.43.0/opentelemetry-sdk-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.43.0/opentelemetry-sdk-metrics-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.43.0/opentelemetry-sdk-logs-1.43.0.jar:/Users/anantatimalsina/.m2/repository/net/bytebuddy/byte-buddy/1.15.7/byte-buddy-1.15.7.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-os/4.26.0/selenium-os-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.26.0/selenium-safari-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-support/4.26.0/selenium-support-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/apache/logging/log4j/log4j-api/2.3.2/log4j-api-2.3.2.jar:/Users/anantatimalsina/.m2/repository/org/apache/logging/log4j/log4j-core/2.3.2/log4j-core-2.3.2.jar:/Users/anantatimalsina/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/anantatimalsina/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/anantatimalsina/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/anantatimalsina/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/anantatimalsina/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/anantatimalsina/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/anantatimalsina/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/anantatimalsina/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/anantatimalsina/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/anantatimalsina/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/anantatimalsina/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/anantatimalsina/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/anantatimalsina/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/anantatimalsina/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/anantatimalsina/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/anantatimalsina/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/anantatimalsina/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/anantatimalsina/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/anantatimalsina/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/anantatimalsina/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/anantatimalsina/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/anantatimalsina/eclipse-workspace/Opencart/target/surefire/surefirebooter-20241209155356488_3.jar /Users/anantatimalsina/eclipse-workspace/Opencart/target/surefire 2024-12-09T15-53-56_423-jvmRun1 surefire-20241209155356488_1tmp surefire_0-20241209155356488_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/anantatimalsina/eclipse-workspace/Opencart/target/test-classes:/Users/anantatimalsina/eclipse-workspace/Opencart/target/classes:/Users/anantatimalsina/.m2/repository/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar:/Users/anantatimalsina/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/anantatimalsina/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/anantatimalsina/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/anantatimalsina/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/anantatimalsina/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/anantatimalsina/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/anantatimalsina/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/anantatimalsina/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/anantatimalsina/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-java/4.26.0/selenium-java-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-api/4.26.0/selenium-api-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.26.0/selenium-chrome-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.26.0/selenium-chromium-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-json/4.26.0/selenium-json-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.26.0/selenium-manager-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v128/4.26.0/selenium-devtools-v128-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.26.0/selenium-devtools-v129-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.26.0/selenium-devtools-v130-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.26.0/selenium-devtools-v85-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.26.0/selenium-edge-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.26.0/selenium-firefox-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-http/4.26.0/selenium-http-4.26.0.jar:/Users/anantatimalsina/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.26.0/selenium-ie-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.26.0/selenium-remote-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar:/Users/anantatimalsina/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/anantatimalsina/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/anantatimalsina/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/anantatimalsina/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/anantatimalsina/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/Users/anantatimalsina/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-api/1.43.0/opentelemetry-api-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-context/1.43.0/opentelemetry-context-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.43.0/opentelemetry-exporter-logging-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.43.0/opentelemetry-sdk-common-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.43.0/opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.43.0/opentelemetry-sdk-extension-autoconfigure-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.43.0-alpha/opentelemetry-api-incubator-1.43.0-alpha.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.43.0/opentelemetry-sdk-trace-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.43.0/opentelemetry-sdk-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.43.0/opentelemetry-sdk-metrics-1.43.0.jar:/Users/anantatimalsina/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.43.0/opentelemetry-sdk-logs-1.43.0.jar:/Users/anantatimalsina/.m2/repository/net/bytebuddy/byte-buddy/1.15.7/byte-buddy-1.15.7.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-os/4.26.0/selenium-os-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.26.0/selenium-safari-driver-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/seleniumhq/selenium/selenium-support/4.26.0/selenium-support-4.26.0.jar:/Users/anantatimalsina/.m2/repository/org/apache/logging/log4j/log4j-api/2.3.2/log4j-api-2.3.2.jar:/Users/anantatimalsina/.m2/repository/org/apache/logging/log4j/log4j-core/2.3.2/log4j-core-2.3.2.jar:/Users/anantatimalsina/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/anantatimalsina/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/anantatimalsina/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/anantatimalsina/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/anantatimalsina/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/anantatimalsina/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/anantatimalsina/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/anantatimalsina/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/anantatimalsina/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/anantatimalsina/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/anantatimalsina/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/anantatimalsina/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/anantatimalsina/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/anantatimalsina/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/anantatimalsina/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/anantatimalsina/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/anantatimalsina/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/anantatimalsina/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/anantatimalsina/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/anantatimalsina/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/anantatimalsina/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/anantatimalsina"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/anantatimalsina/eclipse-workspace/Opencart"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/anantatimalsina/eclipse-workspace/Opencart/target/surefire/surefirebooter-20241209155356488_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.1"/>
+    <property name="user.name" value="anantatimalsina"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/anantatimalsina/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/tk/74rs3tkj4bbcfrn7p0nwy8yc0000gn/T/"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/anantatimalsina/eclipse-workspace/Opencart"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/anantatimalsina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="test_account_registration" classname="com.testCases.TC_001_AccountCreationTest" time="0.919">
+    <system-out><![CDATA[2024-12-09 15:54:04 [main] DEBUG: application logs
+mainhrowwable2024-12-09 15:54:04 [main] INFO : Starting TC 1
+mainhrowwable2024-12-09 15:54:05 [main] INFO : Clicked MyAccount
+mainhrowwable2024-12-09 15:54:05 [main] INFO : Clicked Register Link
+mainhrowwable2024-12-09 15:54:05 [main] INFO : Initiate Registration Page
+mainhrowwable2024-12-09 15:54:05 [main] INFO : entering name, lname etc
+mainhrowwable2024-12-09 15:54:05 [main] INFO : Check Privacy Button TC 1
+mainhrowwable2024-12-09 15:54:05 [main] INFO : Click Continue TC 1
+mainhrowwable2024-12-09 15:54:05 [main] INFO : asserting account creation assertion
+mainhrowwable]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Dec 09, 2024 3:53:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_account_registration" classname="com.testCases.TC_001_AccountCreationTest" time="5.788">
+    <system-out><![CDATA[2024-12-09 15:54:49 [main] DEBUG: application logs
+mainhrowwable2024-12-09 15:54:49 [main] INFO : Starting TC 1
+mainhrowwable2024-12-09 15:54:49 [main] INFO : Clicked MyAccount
+mainhrowwable2024-12-09 15:54:54 [main] INFO : Clicked Register Link
+mainhrowwable2024-12-09 15:54:54 [main] INFO : Initiate Registration Page
+mainhrowwable2024-12-09 15:54:54 [main] INFO : entering name, lname etc
+mainhrowwable2024-12-09 15:54:55 [main] INFO : Check Privacy Button TC 1
+mainhrowwable2024-12-09 15:54:55 [main] INFO : Click Continue TC 1
+mainhrowwable2024-12-09 15:54:55 [main] INFO : asserting account creation assertion
+mainhrowwable]]></system-out>
+    <system-err><![CDATA[Dec 09, 2024 3:54:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verify_login" classname="com.testCases.TC_002_LoginTest" time="0.601">
+    <system-out><![CDATA[2024-12-09 15:54:12 [main] INFO : ***Starting tc_002_login_test ****
+mainhrowwable2024-12-09 15:54:12 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:54:12 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:54:12 [main] INFO : click login button
+mainhrowwable2024-12-09 15:54:12 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:54:12 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:54:12 [main] INFO : enter password
+mainhrowwable2024-12-09 15:54:12 [main] INFO : click login
+mainhrowwable2024-12-09 15:54:13 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:54:13 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:54:13 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:54:13 [main] INFO : Login test passed
+mainhrowwable2024-12-09 15:54:13 [main] INFO : logging out
+mainhrowwable]]></system-out>
+    <system-err><![CDATA[Dec 09, 2024 3:54:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verify_login" classname="com.testCases.TC_002_LoginTest" time="0.582">
+    <system-out><![CDATA[2024-12-09 15:54:57 [main] INFO : ***Starting tc_002_login_test ****
+mainhrowwable2024-12-09 15:54:57 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:54:57 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:54:57 [main] INFO : click login button
+mainhrowwable2024-12-09 15:54:57 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:54:57 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:54:57 [main] INFO : enter password
+mainhrowwable2024-12-09 15:54:57 [main] INFO : click login
+mainhrowwable2024-12-09 15:54:57 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:54:57 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:54:57 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:54:57 [main] INFO : Login test passed
+mainhrowwable2024-12-09 15:54:57 [main] INFO : logging out
+mainhrowwable]]></system-out>
+    <system-err><![CDATA[Dec 09, 2024 3:54:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verify_loginDDT[blondell.rowe@hotmail.com, test123, Valid](1)" classname="com.testCases.TC_004_LoginDDT_Fail_Scenarios" time="0.58">
+    <system-out><![CDATA[2024-12-09 15:54:15 [main] INFO : ***Starting tc_004_login_test ****
+mainhrowwable2024-12-09 15:54:15 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:54:15 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:54:15 [main] INFO : click login button
+mainhrowwable2024-12-09 15:54:15 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:54:15 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:54:15 [main] INFO : enter password
+mainhrowwable2024-12-09 15:54:15 [main] INFO : click login
+mainhrowwable2024-12-09 15:54:15 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:54:15 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:54:15 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:54:15 [main] INFO : test passed
+mainhrowwable]]></system-out>
+    <system-err><![CDATA[Dec 09, 2024 3:54:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verify_loginDDT[blondell.rowe@hotmail.com, test123, Valid](1)" classname="com.testCases.TC_004_LoginDDT_Fail_Scenarios" time="0.569">
+    <system-out><![CDATA[2024-12-09 15:55:04 [main] INFO : ***Starting tc_004_login_test ****
+mainhrowwable2024-12-09 15:55:04 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:55:04 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:55:04 [main] INFO : click login button
+mainhrowwable2024-12-09 15:55:04 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:55:04 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:55:04 [main] INFO : enter password
+mainhrowwable2024-12-09 15:55:04 [main] INFO : click login
+mainhrowwable2024-12-09 15:55:05 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:55:05 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:55:05 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:55:05 [main] INFO : test passed
+mainhrowwable]]></system-out>
+    <system-err><![CDATA[Dec 09, 2024 3:54:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verify_loginDDT[c@d.com, abc123, Valid](2)" classname="com.testCases.TC_004_LoginDDT_Fail_Scenarios" time="0.457">
+    <system-out><![CDATA[2024-12-09 15:54:15 [main] INFO : ***Starting tc_004_login_test ****
+mainhrowwable2024-12-09 15:54:15 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:54:15 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:54:15 [main] INFO : click login button
+mainhrowwable2024-12-09 15:54:15 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:54:15 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:54:15 [main] INFO : enter password
+mainhrowwable2024-12-09 15:54:16 [main] INFO : click login
+mainhrowwable2024-12-09 15:54:16 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:54:16 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:54:16 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:54:16 [main] INFO : test passed
+mainhrowwable]]></system-out>
+  </testcase>
+  <testcase name="verify_loginDDT[c@d.com, abc123, Valid](2)" classname="com.testCases.TC_004_LoginDDT_Fail_Scenarios" time="0.446">
+    <system-out><![CDATA[2024-12-09 15:55:05 [main] INFO : ***Starting tc_004_login_test ****
+mainhrowwable2024-12-09 15:55:05 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:55:05 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:55:05 [main] INFO : click login button
+mainhrowwable2024-12-09 15:55:05 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:55:05 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:55:05 [main] INFO : enter password
+mainhrowwable2024-12-09 15:55:05 [main] INFO : click login
+mainhrowwable2024-12-09 15:55:05 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:55:05 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:55:05 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:55:05 [main] INFO : test passed
+mainhrowwable]]></system-out>
+  </testcase>
+  <testcase name="verify_loginDDT[iluminada.lowe@yahoo.com, Test123, Invalid](3)" classname="com.testCases.TC_004_LoginDDT_Fail_Scenarios" time="10.336">
+    <system-out><![CDATA[2024-12-09 15:54:16 [main] INFO : ***Starting tc_004_login_test ****
+mainhrowwable2024-12-09 15:54:16 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:54:16 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:54:16 [main] INFO : click login button
+mainhrowwable2024-12-09 15:54:16 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:54:16 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:54:16 [main] INFO : enter password
+mainhrowwable2024-12-09 15:54:16 [main] INFO : click login
+mainhrowwable2024-12-09 15:54:16 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:54:16 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:54:26 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:54:26 [main] INFO : test pass
+mainhrowwable]]></system-out>
+  </testcase>
+  <testcase name="verify_loginDDT[iluminada.lowe@yahoo.com, Test123, Invalid](3)" classname="com.testCases.TC_004_LoginDDT_Fail_Scenarios" time="10.363">
+    <system-out><![CDATA[2024-12-09 15:55:05 [main] INFO : ***Starting tc_004_login_test ****
+mainhrowwable2024-12-09 15:55:05 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:55:05 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:55:05 [main] INFO : click login button
+mainhrowwable2024-12-09 15:55:05 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:55:05 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:55:05 [main] INFO : enter password
+mainhrowwable2024-12-09 15:55:05 [main] INFO : click login
+mainhrowwable2024-12-09 15:55:05 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:55:05 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:55:15 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:55:15 [main] INFO : test pass
+mainhrowwable]]></system-out>
+  </testcase>
+  <testcase name="verify_loginDDT[luana.rice@gmail.com, Aaaa, Invalid](4)" classname="com.testCases.TC_004_LoginDDT_Fail_Scenarios" time="10.379">
+    <system-out><![CDATA[2024-12-09 15:54:26 [main] INFO : ***Starting tc_004_login_test ****
+mainhrowwable2024-12-09 15:54:26 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:54:26 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:54:26 [main] INFO : click login button
+mainhrowwable2024-12-09 15:54:26 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:54:26 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:54:26 [main] INFO : enter password
+mainhrowwable2024-12-09 15:54:26 [main] INFO : click login
+mainhrowwable2024-12-09 15:54:26 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:54:26 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:54:36 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:54:37 [main] INFO : test pass
+mainhrowwable]]></system-out>
+  </testcase>
+  <testcase name="verify_loginDDT[luana.rice@gmail.com, Aaaa, Invalid](4)" classname="com.testCases.TC_004_LoginDDT_Fail_Scenarios" time="10.419">
+    <system-out><![CDATA[2024-12-09 15:55:15 [main] INFO : ***Starting tc_004_login_test ****
+mainhrowwable2024-12-09 15:55:15 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:55:15 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:55:15 [main] INFO : click login button
+mainhrowwable2024-12-09 15:55:16 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:55:16 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:55:16 [main] INFO : enter password
+mainhrowwable2024-12-09 15:55:16 [main] INFO : click login
+mainhrowwable2024-12-09 15:55:16 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:55:16 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:55:26 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:55:26 [main] INFO : test pass
+mainhrowwable]]></system-out>
+  </testcase>
+  <testcase name="verify_loginDDT[luana.rice@gmail.com, Aaaa, invalid](5)" classname="com.testCases.TC_004_LoginDDT_Fail_Scenarios" time="10.417">
+    <system-out><![CDATA[2024-12-09 15:54:37 [main] INFO : ***Starting tc_004_login_test ****
+mainhrowwable2024-12-09 15:54:37 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:54:37 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:54:37 [main] INFO : click login button
+mainhrowwable2024-12-09 15:54:37 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:54:37 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:54:37 [main] INFO : enter password
+mainhrowwable2024-12-09 15:54:37 [main] INFO : click login
+mainhrowwable2024-12-09 15:54:37 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:54:37 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:54:47 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:54:47 [main] INFO : test pass
+mainhrowwable]]></system-out>
+  </testcase>
+  <testcase name="verify_loginDDT[luana.rice@gmail.com, Aaaa, invalid](5)" classname="com.testCases.TC_004_LoginDDT_Fail_Scenarios" time="10.376">
+    <system-out><![CDATA[2024-12-09 15:55:26 [main] INFO : ***Starting tc_004_login_test ****
+mainhrowwable2024-12-09 15:55:26 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:55:26 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:55:26 [main] INFO : click login button
+mainhrowwable2024-12-09 15:55:26 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:55:26 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:55:26 [main] INFO : enter password
+mainhrowwable2024-12-09 15:55:26 [main] INFO : click login
+mainhrowwable2024-12-09 15:55:26 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:55:26 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:55:36 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:55:36 [main] INFO : test pass
+mainhrowwable]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,6 @@
+username,password,expected
+blondell.rowe@hotmail.com,test123,Valid
+c@d.com,abc123,Valid
+iluminada.lowe@yahoo.com,Test123,Invalid
+luana.rice@gmail.com,Aaaa,Invalid
+luana.rice@gmail.com,Aaaa,invalid

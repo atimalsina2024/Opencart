@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-09T15:53:56 EST" name="Suite" finished-at="2024-12-09T15:54:47 EST" duration-ms="50559">
+    <groups>
+      <group name="fail">
+        <method signature="TC_004_LoginDDT_Fail_Scenarios.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@1d2adfbe]" name="verify_loginDDT" class="com.testCases.TC_004_LoginDDT_Fail_Scenarios"/>
+      </group> <!-- fail -->
+      <group name="regression">
+        <method signature="TC_001_AccountCreationTest.test_account_registration()[pri:1, instance:com.testCases.TC_001_AccountCreationTest@3a93b025]" name="test_account_registration" class="com.testCases.TC_001_AccountCreationTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_002_LoginTest.verify_login()[pri:1, instance:com.testCases.TC_002_LoginTest@16d04d3d]" name="verify_login" class="com.testCases.TC_002_LoginTest"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_AccountCreationTest.test_account_registration()[pri:1, instance:com.testCases.TC_001_AccountCreationTest@3a93b025]" name="test_account_registration" class="com.testCases.TC_001_AccountCreationTest"/>
+        <method signature="TC_002_LoginTest.verify_login()[pri:1, instance:com.testCases.TC_002_LoginTest@16d04d3d]" name="verify_login" class="com.testCases.TC_002_LoginTest"/>
+        <method signature="TC_004_LoginDDT_Fail_Scenarios.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@1d2adfbe]" name="verify_loginDDT" class="com.testCases.TC_004_LoginDDT_Fail_Scenarios"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-12-09T15:53:56 EST" name="Test" finished-at="2024-12-09T15:54:47 EST" duration-ms="50559">
+      <class name="com.testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_002_LoginTest@16d04d3d]" started-at="2024-12-09T15:54:05 EST" name="setup" finished-at="2024-12-09T15:54:12 EST" duration-ms="6641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:1, instance:com.testCases.TC_002_LoginTest@16d04d3d]" started-at="2024-12-09T15:54:12 EST" name="verify_login" finished-at="2024-12-09T15:54:13 EST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.TC_002_LoginTest@16d04d3d]" started-at="2024-12-09T15:54:13 EST" name="tearDown" finished-at="2024-12-09T15:54:13 EST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TC_002_LoginTest -->
+      <class name="com.testCases.TC_004_LoginDDT_Fail_Scenarios">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@1d2adfbe]" started-at="2024-12-09T15:54:13 EST" name="setup" finished-at="2024-12-09T15:54:15 EST" duration-ms="1882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@1d2adfbe]" started-at="2024-12-09T15:54:15 EST" name="verify_loginDDT" data-provider="LoginTestAllDataArray" finished-at="2024-12-09T15:54:15 EST" duration-ms="580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blondell.rowe@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@1d2adfbe]" started-at="2024-12-09T15:54:15 EST" name="verify_loginDDT" data-provider="LoginTestAllDataArray" finished-at="2024-12-09T15:54:16 EST" duration-ms="456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c@d.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@1d2adfbe]" started-at="2024-12-09T15:54:16 EST" name="verify_loginDDT" data-provider="LoginTestAllDataArray" finished-at="2024-12-09T15:54:26 EST" duration-ms="10334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iluminada.lowe@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@1d2adfbe]" started-at="2024-12-09T15:54:26 EST" name="verify_loginDDT" data-provider="LoginTestAllDataArray" finished-at="2024-12-09T15:54:37 EST" duration-ms="10379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[luana.rice@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@1d2adfbe]" started-at="2024-12-09T15:54:37 EST" name="verify_loginDDT" data-provider="LoginTestAllDataArray" finished-at="2024-12-09T15:54:47 EST" duration-ms="10417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[luana.rice@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@1d2adfbe]" started-at="2024-12-09T15:54:47 EST" name="tearDown" finished-at="2024-12-09T15:54:47 EST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TC_004_LoginDDT_Fail_Scenarios -->
+      <class name="com.testCases.TC_001_AccountCreationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_001_AccountCreationTest@3a93b025]" started-at="2024-12-09T15:53:57 EST" name="setup" finished-at="2024-12-09T15:54:04 EST" duration-ms="7899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_account_registration()[pri:1, instance:com.testCases.TC_001_AccountCreationTest@3a93b025]" started-at="2024-12-09T15:54:04 EST" name="test_account_registration" finished-at="2024-12-09T15:54:05 EST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.TC_001_AccountCreationTest@3a93b025]" started-at="2024-12-09T15:54:05 EST" name="tearDown" finished-at="2024-12-09T15:54:05 EST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TC_001_AccountCreationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2024-12-09T15:54:47 EST" name="Suite (0)" finished-at="2024-12-09T15:55:36 EST" duration-ms="49162">
+    <groups>
+      <group name="fail">
+        <method signature="TC_004_LoginDDT_Fail_Scenarios.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@692f203f]" name="verify_loginDDT" class="com.testCases.TC_004_LoginDDT_Fail_Scenarios"/>
+      </group> <!-- fail -->
+      <group name="regression">
+        <method signature="TC_001_AccountCreationTest.test_account_registration()[pri:1, instance:com.testCases.TC_001_AccountCreationTest@4d5d943d]" name="test_account_registration" class="com.testCases.TC_001_AccountCreationTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_002_LoginTest.verify_login()[pri:1, instance:com.testCases.TC_002_LoginTest@368f2016]" name="verify_login" class="com.testCases.TC_002_LoginTest"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_AccountCreationTest.test_account_registration()[pri:1, instance:com.testCases.TC_001_AccountCreationTest@4d5d943d]" name="test_account_registration" class="com.testCases.TC_001_AccountCreationTest"/>
+        <method signature="TC_002_LoginTest.verify_login()[pri:1, instance:com.testCases.TC_002_LoginTest@368f2016]" name="verify_login" class="com.testCases.TC_002_LoginTest"/>
+        <method signature="TC_004_LoginDDT_Fail_Scenarios.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@692f203f]" name="verify_loginDDT" class="com.testCases.TC_004_LoginDDT_Fail_Scenarios"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-12-09T15:54:47 EST" name="Test" finished-at="2024-12-09T15:55:36 EST" duration-ms="49162">
+      <class name="com.testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_002_LoginTest@368f2016]" started-at="2024-12-09T15:54:55 EST" name="setup" finished-at="2024-12-09T15:54:57 EST" duration-ms="1866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:1, instance:com.testCases.TC_002_LoginTest@368f2016]" started-at="2024-12-09T15:54:57 EST" name="verify_login" finished-at="2024-12-09T15:54:57 EST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.TC_002_LoginTest@368f2016]" started-at="2024-12-09T15:54:57 EST" name="tearDown" finished-at="2024-12-09T15:54:57 EST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TC_002_LoginTest -->
+      <class name="com.testCases.TC_004_LoginDDT_Fail_Scenarios">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@692f203f]" started-at="2024-12-09T15:54:57 EST" name="setup" finished-at="2024-12-09T15:55:04 EST" duration-ms="6635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@692f203f]" started-at="2024-12-09T15:55:04 EST" name="verify_loginDDT" data-provider="LoginTestAllDataArray" finished-at="2024-12-09T15:55:05 EST" duration-ms="570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blondell.rowe@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@692f203f]" started-at="2024-12-09T15:55:05 EST" name="verify_loginDDT" data-provider="LoginTestAllDataArray" finished-at="2024-12-09T15:55:05 EST" duration-ms="447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c@d.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@692f203f]" started-at="2024-12-09T15:55:05 EST" name="verify_loginDDT" data-provider="LoginTestAllDataArray" finished-at="2024-12-09T15:55:15 EST" duration-ms="10362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iluminada.lowe@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@692f203f]" started-at="2024-12-09T15:55:15 EST" name="verify_loginDDT" data-provider="LoginTestAllDataArray" finished-at="2024-12-09T15:55:26 EST" duration-ms="10419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[luana.rice@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@692f203f]" started-at="2024-12-09T15:55:26 EST" name="verify_loginDDT" data-provider="LoginTestAllDataArray" finished-at="2024-12-09T15:55:36 EST" duration-ms="10375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[luana.rice@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.TC_004_LoginDDT_Fail_Scenarios@692f203f]" started-at="2024-12-09T15:55:36 EST" name="tearDown" finished-at="2024-12-09T15:55:36 EST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TC_004_LoginDDT_Fail_Scenarios -->
+      <class name="com.testCases.TC_001_AccountCreationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_001_AccountCreationTest@4d5d943d]" started-at="2024-12-09T15:54:47 EST" name="setup" finished-at="2024-12-09T15:54:49 EST" duration-ms="1862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_account_registration()[pri:1, instance:com.testCases.TC_001_AccountCreationTest@4d5d943d]" started-at="2024-12-09T15:54:49 EST" name="test_account_registration" finished-at="2024-12-09T15:54:55 EST" duration-ms="5789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.TC_001_AccountCreationTest@4d5d943d]" started-at="2024-12-09T15:54:55 EST" name="tearDown" finished-at="2024-12-09T15:54:55 EST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TC_001_AccountCreationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

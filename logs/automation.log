@@ -1,0 +1,17 @@
+2024-12-09 15:55:16 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:55:16 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:55:26 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:55:26 [main] INFO : test pass
+mainhrowwable2024-12-09 15:55:26 [main] INFO : ***Starting tc_004_login_test ****
+mainhrowwable2024-12-09 15:55:26 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-09 15:55:26 [main] INFO : clicking myacct button
+mainhrowwable2024-12-09 15:55:26 [main] INFO : click login button
+mainhrowwable2024-12-09 15:55:26 [main] INFO : initialize login page
+mainhrowwable2024-12-09 15:55:26 [main] INFO : enter email address
+mainhrowwable2024-12-09 15:55:26 [main] INFO : enter password
+mainhrowwable2024-12-09 15:55:26 [main] INFO : click login
+mainhrowwable2024-12-09 15:55:26 [main] INFO : init MyAccount Page object
+mainhrowwable2024-12-09 15:55:26 [main] INFO : store result to a variable
+mainhrowwable2024-12-09 15:55:36 [main] INFO : asserting result
+mainhrowwable2024-12-09 15:55:36 [main] INFO : test pass
+mainhrowwable

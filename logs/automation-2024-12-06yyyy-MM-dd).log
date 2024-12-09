@@ -1,0 +1,67 @@
+2024-12-06 15:29:36 [main] INFO : Initiate Registration Page
+mainhrowwable2024-12-06 15:29:36 [main] INFO : entering name, lname etc
+mainhrowwable2024-12-06 15:29:36 [main] INFO : Check Privacy Button TC 1
+mainhrowwable2024-12-06 15:29:36 [main] INFO : Click Continue TC 1
+mainhrowwable2024-12-06 15:29:37 [main] INFO : asserting account creation assertion
+mainhrowwable2024-12-06 15:33:42 [main] DEBUG: application logs
+mainhrowwable2024-12-06 15:33:42 [main] INFO : Starting TC 1
+mainhrowwable2024-12-06 15:33:42 [main] INFO : Clicked MyAccount
+mainhrowwable2024-12-06 15:33:42 [main] INFO : Clicked Register Link
+mainhrowwable2024-12-06 15:33:42 [main] INFO : Initiate Registration Page
+mainhrowwable2024-12-06 15:33:42 [main] INFO : entering name, lname etc
+mainhrowwable2024-12-06 15:33:42 [main] INFO : Check Privacy Button TC 1
+mainhrowwable2024-12-06 15:33:42 [main] INFO : Click Continue TC 1
+mainhrowwable2024-12-06 15:33:43 [main] INFO : asserting account creation assertion
+mainhrowwable2024-12-06 15:33:53 [main] DEBUG: application logs
+mainhrowwable2024-12-06 15:33:53 [main] INFO : Starting TC 1
+mainhrowwable2024-12-06 15:33:53 [main] INFO : Clicked MyAccount
+mainhrowwable2024-12-06 15:33:53 [main] INFO : Clicked Register Link
+mainhrowwable2024-12-06 15:33:53 [main] INFO : Initiate Registration Page
+mainhrowwable2024-12-06 15:33:53 [main] INFO : entering name, lname etc
+mainhrowwable2024-12-06 15:33:53 [main] INFO : Check Privacy Button TC 1
+mainhrowwable2024-12-06 15:33:53 [main] INFO : Click Continue TC 1
+mainhrowwable2024-12-06 15:33:54 [main] INFO : asserting account creation assertion
+mainhrowwable2024-12-06 15:38:31 [TestNG-tests-2] DEBUG: application logs
+TestNG-tests-2hrowwable2024-12-06 15:38:31 [TestNG-tests-2] INFO : Starting TC 1
+TestNG-tests-2hrowwable2024-12-06 15:38:31 [TestNG-tests-2] INFO : Clicked MyAccount
+TestNG-tests-2hrowwable2024-12-06 15:38:32 [TestNG-tests-1] DEBUG: application logs
+TestNG-tests-1hrowwable2024-12-06 15:38:32 [TestNG-tests-1] INFO : Starting TC 1
+TestNG-tests-1hrowwable2024-12-06 15:38:32 [TestNG-tests-1] INFO : Clicked MyAccount
+TestNG-tests-1hrowwable2024-12-06 15:38:32 [TestNG-tests-1] INFO : Clicked Register Link
+TestNG-tests-1hrowwable2024-12-06 15:38:32 [TestNG-tests-1] INFO : Initiate Registration Page
+TestNG-tests-1hrowwable2024-12-06 15:38:32 [TestNG-tests-1] INFO : entering name, lname etc
+TestNG-tests-1hrowwable2024-12-06 15:38:32 [TestNG-tests-1] INFO : Check Privacy Button TC 1
+TestNG-tests-1hrowwable2024-12-06 15:38:33 [TestNG-tests-1] INFO : Click Continue TC 1
+TestNG-tests-1hrowwable2024-12-06 15:38:33 [TestNG-tests-1] INFO : asserting account creation assertion
+TestNG-tests-1hrowwable2024-12-06 15:38:36 [TestNG-tests-2] INFO : Clicked Register Link
+TestNG-tests-2hrowwable2024-12-06 15:38:36 [TestNG-tests-2] INFO : Initiate Registration Page
+TestNG-tests-2hrowwable2024-12-06 15:38:36 [TestNG-tests-2] INFO : entering name, lname etc
+TestNG-tests-2hrowwable2024-12-06 15:38:37 [TestNG-tests-2] INFO : Check Privacy Button TC 1
+TestNG-tests-2hrowwable2024-12-06 15:38:37 [TestNG-tests-2] INFO : Click Continue TC 1
+TestNG-tests-2hrowwable2024-12-06 15:38:37 [TestNG-tests-2] INFO : asserting account creation assertion
+TestNG-tests-2hrowwable2024-12-06 15:51:35 [main] DEBUG: application logs
+mainhrowwable2024-12-06 15:51:35 [main] INFO : Starting TC 1
+mainhrowwable2024-12-06 15:51:35 [main] INFO : Clicked MyAccount
+mainhrowwable2024-12-06 15:51:41 [main] INFO : Clicked Register Link
+mainhrowwable2024-12-06 15:51:41 [main] INFO : Initiate Registration Page
+mainhrowwable2024-12-06 15:51:41 [main] INFO : entering name, lname etc
+mainhrowwable2024-12-06 15:51:41 [main] INFO : Check Privacy Button TC 1
+mainhrowwable2024-12-06 15:51:41 [main] INFO : Click Continue TC 1
+mainhrowwable2024-12-06 15:51:41 [main] INFO : asserting account creation assertion
+mainhrowwable2024-12-06 22:03:00 [main] INFO : ***Starting tc_002_login_test ****
+mainhrowwable2024-12-06 22:03:00 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-06 22:03:00 [main] INFO : click login button
+mainhrowwable2024-12-06 22:05:16 [main] DEBUG: application logs
+mainhrowwable2024-12-06 22:05:16 [main] INFO : Starting TC 1
+mainhrowwable2024-12-06 22:05:16 [main] INFO : Clicked MyAccount
+mainhrowwable2024-12-06 22:05:16 [main] INFO : Clicked Register Link
+mainhrowwable2024-12-06 22:05:16 [main] INFO : Initiate Registration Page
+mainhrowwable2024-12-06 22:05:16 [main] INFO : entering name, lname etc
+mainhrowwable2024-12-06 22:05:17 [main] INFO : Check Privacy Button TC 1
+mainhrowwable2024-12-06 22:05:17 [main] INFO : Click Continue TC 1
+mainhrowwable2024-12-06 22:05:17 [main] INFO : asserting account creation assertion
+mainhrowwable2024-12-06 22:05:19 [main] INFO : ***Starting tc_002_login_test ****
+mainhrowwable2024-12-06 22:05:19 [main] INFO : initializing HomePage Class
+mainhrowwable2024-12-06 22:05:19 [main] INFO : click login button
+mainhrowwable2024-12-06 22:06:54 [main] INFO : ***Starting tc_002_login_test ****
+mainhrowwable
